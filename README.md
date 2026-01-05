@@ -55,8 +55,3 @@ python app/main.py
     └── azure-cicd.yml
 ```
 
-## Contributing
-1. Fork / create feature branch  
-2. Push—Actions will deploy automatically  
-3. Open PR
-
