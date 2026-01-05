@@ -15,7 +15,6 @@ from config import Config
 app = Flask(__name__)
 
 # Initialize Azure services
-azure_config = AzureConfig()
 vector_store = VectorStore(Config.VECTOR_DB_PATH)
 storage_service = AzureStorage()  # NEW
 llm_service = GeminiService(vector_store) 
